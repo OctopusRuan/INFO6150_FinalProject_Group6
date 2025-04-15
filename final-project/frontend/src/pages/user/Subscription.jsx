@@ -30,14 +30,27 @@ export default function Subscription() {
                                 <TableCell align="center">Free</TableCell>
                             </TableRow>
                             <TableRow>
+                                <TableCell align="center">Free Trial</TableCell>
+                                <TableCell align="center">AI-based Meal Plan Recommendation + AI Nutrition Analysis</TableCell>
+                                <TableCell align="center">Free Trial for 7 days</TableCell>
+                            </TableRow>
+                            <TableRow>
                                 <TableCell align="center">Pro</TableCell>
                                 <TableCell align="center">Personalized Meal Plans + AI Nutrition Analysis</TableCell>
                                 <TableCell align="center">$9.99/month</TableCell>
                             </TableRow>
                             <TableRow>
                                 <TableCell align="center">Premium</TableCell>
-                                <TableCell align="center">1-on-1 Nutritionist Consultation + Pro Features</TableCell>
+                                <TableCell align="center">Personalized Nutritionist Consultation + Pro Features</TableCell>
                                 <TableCell align="center">$19.99/month</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell align="center">Annual Premium</TableCell>
+                                <TableCell align="center">1-on-1 Nutritionist Consultation + Pro Features + Exclusive Annual Perks + Annual health report</TableCell>
+                                <TableCell align="center">
+                                    <p>$199.99/first year</p>
+                                    <p>$169.99/renewal</p>
+                                </TableCell>
                             </TableRow>
                         </TableBody>
                     </Table>

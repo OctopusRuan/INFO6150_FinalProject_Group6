@@ -90,6 +90,7 @@ function App() {
   return (
     <Router>
       {isAuthenticated && <Navbar onLogout={handleLogout} />}
+      <title>Fuel Your Body</title>
       <Routes>
         {/* Login page, no protection required */}
         <Route path="/login" element={<Login onLogin={() => setIsAuthenticated(true)} />} />
