@@ -11,6 +11,7 @@ import Subscription from './pages/user/Subscription';
 import Community from './pages/user/Community';
 import Navbar from './components/Navbar';
 import ProtectedRoute from './components/ProtectedRoute';
+import AiSearchBox from './AiSearchBox';
 
 import CircularProgress from '@mui/material/CircularProgress';
 
@@ -100,6 +101,7 @@ function App() {
         <Route path="/user/analysis" element={<ProtectedRoute element={Analysis} allowedTypes={['user']} />} />
         <Route path="/user/subscription" element={<ProtectedRoute element={Subscription} allowedTypes={['user']} />} />
         <Route path="/user/community" element={<ProtectedRoute element={Community} allowedTypes={['user']} />} />
+        <Route path="/user/aisearch" element={<ProtectedRoute element={AiSearchBox} allowedTypes={['user']} />} />
 
         {/* admin pages */}
         <Route path="/admin/home" element={<ProtectedRoute element={AdminHome} allowedTypes={['admin']} />} />
